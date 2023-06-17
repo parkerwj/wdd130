@@ -12,7 +12,7 @@ Fonts are separated by a & */
   --accent2-color: white;
 
   /* change the values below to your chosen font(s) */
-  --heading-font: Kalam;
+  --heading-font: Kalam, sans-serif;
   --paragraph-font: Poppins, Helvetica, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
@@ -33,8 +33,8 @@ Fonts are separated by a & */
 body {
   max-width: 960px;
   margin: 0 auto;
-  padding: 4em;
-  font-size: 18px;
+  padding: 20px;
+  font-size: var(--paragraph-font);
   text-align: center;
 }
 img {
@@ -55,7 +55,7 @@ hr {
   background: var(--accent1-color);
 }
 header {
-  padding: 1em;
+  padding: 20px;
   text-align: center;
   color: var(--paragraph-color-on-color);
   background-color: var(--paragraph-background-color);
@@ -66,7 +66,7 @@ header > h1, header > h2 {
 p {
   font-family: var(--paragraph-font);
   color: var(--paragraph-color);
-  padding: 1em;
+  padding: 25px;
 }
 .colors {
   width: 100%;
