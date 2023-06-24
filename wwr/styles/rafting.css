@@ -56,7 +56,7 @@ header img {
     width: 100px;
     height: auto;
     border-radius: 50px;
-    margin-right: 25px;
+    margin-right: 100px;
 }
 nav {
     /* margin-top: 30px;
@@ -117,7 +117,9 @@ nav a:hover {
     width: 300px;
     height: auto;
     margin: 4px;
-    padding-left: 5px;
+    padding: 5px;
+    padding-right: 30px;
+    padding-top: 30px;
 }
 .words {
     font-family: var(--paragraph-font);
@@ -126,7 +128,10 @@ nav a:hover {
 p {
     font-family: var(--paragraph-font);
     padding: 20px;
-    padding-top: 0;
+    padding-top: 10;
+    color: #4A4E69;
+    text-shadow: white;
+    background-color: white;
 }
 section {
     background-color: var(--nav-hover-background-color);
@@ -136,6 +141,7 @@ section img {
     width: 50%;
     margin: auto;
     box-sizing: border-box;
+    text-align: center;
 
 }
 footer{
@@ -145,7 +151,7 @@ footer{
     background-color: var(--paragraph-background-color);
     padding: 25px 20px;
     margin-top: auto;
-    color:var(--accent2-color);
+    color:var(--nav-hover-background-color);
 }
 
 .sociallinks img {
