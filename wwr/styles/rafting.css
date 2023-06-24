@@ -6,7 +6,7 @@
 }
 
 main {
-	max-width: auto;
+	max-width: 100%;
 	margin: 2rem auto;
 	font-family: Roboto, Arial, sans-serif;
 }
@@ -99,13 +99,11 @@ nav a:hover {
 	text-shadow: 3px 3px 5px #777;
     margin-left: 40%;
     margin-top: 100px;
-    color: var(rgb(121, 122, 107));
     background-color:#747474;
 }
 .hero article {
     position: absolute;
 	bottom: 50px;
-	background: radial-gradient(--paragraph-color);
     opacity: .9;
     color: white;
     margin: 10px;
@@ -131,12 +129,13 @@ p {
     padding-top: 0;
 }
 section {
-    background: radial-gradient(#4A4E69, #9A8C98);
+    background-color: var(--nav-hover-background-color);
     margin: 10px;
 }
 section img {
     width: 50%;
-    margin: 5px;
+    margin: auto;
+    box-sizing: border-box;
 
 }
 footer{
