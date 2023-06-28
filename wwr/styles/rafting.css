@@ -35,6 +35,7 @@ main {
 h1 {
     font-family: var(--heading-font);
     color: var(--accent2-color);
+    position: absolute;
 }
 h2, h3, h4, h5, h6 {
     font-family: var(--heading2-font);

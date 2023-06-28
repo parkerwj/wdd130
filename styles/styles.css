@@ -6,21 +6,27 @@
 nav {
     background-color: steelblue;
     padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 nav a {
     color: white;
     padding: 10px;
     display: block;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 700;
 }
 h1 {
     color: steelblue;
     padding: .5rem;
+    border-bottom: 1px;
 }
-
 main {
-    max-width: 640px;
+    grid-column: 2/3;
+    margin: 1rem;
 }
-
 main img {
     width: 150px;
     height: auto;
@@ -39,6 +45,8 @@ aside {
     width: 20em;
     text-align: center;
     position: relative;
+    grid-column: 1/2;
+    grid-row: 1/2;
 }
 
 aside img {
@@ -50,6 +58,16 @@ aside h2 {
     position: absolute;
     top: 30px;
     left: 130px;
+}
+
+header, .grid, footer {
+    max-width: 840px;
+    margin: 0 auto;
+}
+
+.grid {
+    display: grid;
+    align-items: center;
 }
 
 footer {
