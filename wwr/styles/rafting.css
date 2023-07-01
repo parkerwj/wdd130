@@ -149,7 +149,7 @@ section {
 
 div {
     text-align: center;
-    margin: 10px;
+    margin-bottom: 10px;
     display: flex;
     flex-direction: row;
     
