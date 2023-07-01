@@ -50,7 +50,9 @@ header {
     color: white;
     padding: 1em;
     text-align: center;
-    display: flex;
+    display: grid;
+    grid-template-columns: 20% 5% 5% 5% 5%;
+    justify-content:space-evenly;
     
 }
 header img {
@@ -77,6 +79,7 @@ nav a {
     min-width: 80px;
     text-decoration: none;
  }
+
 nav a:link, nav a:visited {
     color: var(--nav-link-color);
 }
@@ -137,12 +140,31 @@ p {
 section {
     background-color: var(--nav-hover-background-color);
     margin: 10px;
+    text-align: center;  
+    display: grid;  
+    
 }
-section img {
-    width: 50%;
-    margin: auto;
-    box-sizing: border-box;
+.words section {
+    display: flex;
+}
+
+figure{
+    float: both;
     text-align: center;
+    margin: 1px;
+    padding: 10px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+figcaption {
+    justify-content: end;
+}
+figure img {
+    width: 10%;
 
 }
 footer{

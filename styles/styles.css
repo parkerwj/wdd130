@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 nav {
-    background-color: steelblue;
+    background-color: #396e99;
     padding: 10px;
     display: flex;
     justify-content: space-evenly;
@@ -19,7 +19,7 @@ nav a {
     font-weight: 700;
 }
 h1 {
-    color: steelblue;
+    color: #396e99;
     padding: .5rem;
     border-bottom: 1px;
 }
@@ -30,7 +30,7 @@ main {
 main img {
     width: 150px;
     height: auto;
-    border: 1px solid steelblue;
+    border: 1px solid #396e99;
     padding: 2px;
     box-shadow: 0 0 30px gray;
     float: right;
