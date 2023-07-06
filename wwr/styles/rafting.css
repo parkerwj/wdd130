@@ -30,7 +30,7 @@ main {
   --nav-link-color: white;
   --nav-background-color: #4A4E69 ;
   --nav-hover-link-color: white;
-  --nav-hover-background-color: #9A8C98 ;
+  --nav-hover-background-color: #726b71 ;
 }
 h1 {
     font-family: var(--heading-font);
@@ -133,7 +133,7 @@ p {
     font-family: var(--paragraph-font);
     padding: 20px;
     padding-top: 10px;
-    color: #4A4E69;
+    color: #000000;
     background-color: rgb(248, 243, 243);
 }
 section {
@@ -156,6 +156,7 @@ div {
 }
 figcaption {
     justify-content: end;
+    color: white;
 }
 figure img {
     width: 350px;

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>WDD 130 | HTML, CSS, and Quiz</title>
+  <meta name="description" content="Natalie Hamel's basic HTML and CSS quiz.">
+  <meta name="author" content="Natalie Hamel">
+  <link rel="stylesheet" href="styles/quiz.css">
+</head>
+<body>
+<header>
+  <h1>Basic HTML and CSS quiz</h1>
+</header>
+<main>
+    <form>
+        <div class="one">
+            <div class="number">1.</div>
+            <label>What does the acronym CSS stand for?</label>
+        </div>
+        <input type="text" id="q1" name="q1">
+        <div class="two">
+            <div class="number">2.</div>
+            <label>How are id and class attributes selected in CSS?</label>
+        </div>
+        <textarea id="q2" name="q2" rows="4" placeholder="enter answer here"></textarea>
+        <div class="three">
+            <div class="number">3.</div>
+            <label>Which of the following is a valid CSS comment?</label>
+        </div>
+        <select id="q3" name="q3">
+            <option value="" selected disabled>Choose One ...</option>
+            <option value="option 1">* {margin: 0; padding: 0;}</option>
+            <option value="option 2">* (margin: 0; padding: 0;)</option>
+            <option value="option 3">* [mardgin: 0 and padding: 0;]</option>
+        </select>
+        <div class="four">
+            <div class="number">4.</div> 
+            <label>What is the bottom margin given this declaration?</label>
+        </div>
+        <div class='label-four'>
+            <label>margin: 10px 5px 15px;</label>
+        </div>
+        <input type="number" id="q4" name="q4">
+        <button type="submit">Submit Quiz</button>
+    </form>
+</main>
+<footer>
+  <p>©2023 | Quiz Form | Parker Johnson</p>
+</footer>
+</body>
+</html>
