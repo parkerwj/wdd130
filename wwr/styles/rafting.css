@@ -174,7 +174,137 @@ footer{
     margin-top: auto;
     color:var(--nav-hover-background-color);
 }
+form {
+    width: 650px;
+    margin: 2rem auto;
+    padding: 1rem;
+    border:#2F3E46;
+    border-radius: 0.5rem;
+    background-color:#354F52;
+    display: grid;
+  }
 
+label, input, button, select, textarea {
+    font-family: Roboto, Arial, sans-serif;
+    margin: .5rem;
+  }
+
+label {
+    text-align: left;
+    padding-right: 1rem;
+  }
+
+input, select, textarea {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+  }
+
+button {
+    margin: 1rem;
+    background-color:#354F52;
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+  }
+
+button:hover {
+    background-color:#52796F;
+  }
+
+
+fieldset {
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    background-color:#CAD2C5;
+    padding: 1rem;
+  }
+
+input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+  }
+
+.check {
+    display:flex;
+}
+
+.radio{
+    display:flex;
+}
+
+.employees {
+    display:flex;
+    justify-content: space-between;
+    flex-flow: row nowrap;
+    align-content: center;
+    height: auto;
+}
+
+figcaption {
+    text-align: center;
+    font-size:large;
+}
+
+.call_to_action {
+    display: grid;
+    justify-content: center;
+    padding: 20px;
+}
+
+
+
+table, th, td {
+    border: 1px solid;
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+    padding: 20px;
+}
+.info{
+    text-align: left;
+    padding: 0;
+    border:#2F3E46;
+    display:flex;
+}
+
+.contact-info {
+    display:block;
+    border-style:solid;
+    border-color:#CAD2C5;
+    padding: 5px;
+    width: 80%;
+    margin: auto;   
+}
+.contact {
+    display: inline-block;
+    
+}
+.check_out {
+    width: 100%; 
+}
+
+.contact_us_button {
+    width: 100%;
+}
+
+.wireframe {
+    width: 10%;
+    height: 70%;
+}
+
+.purpose_offer {
+    background-color:#CAD2C5;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 25px;
+    padding: 10px;
+}
 .sociallinks img {
     width: 40px;
 
