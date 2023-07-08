@@ -235,9 +235,16 @@ input[type="checkbox"] {
 .radio{
     display:flex;
 }
-
+.crew {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    float: both;
+}
 .employees {
     display:flex;
+    margin-top: 3%;
     justify-content: space-between;
     flex-flow: row nowrap;
     align-content: center;
